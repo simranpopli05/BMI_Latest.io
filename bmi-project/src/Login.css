@@ -1,0 +1,113 @@
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/012/843/767/non_2x/fresh-fruits-and-vegetables-on-grey-background-healthy-eating-concept-flat-lay-copy-space-photo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Container styles */
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  align-content: stretch;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+#fpbtn:hover{
+cursor: pointer;
+}
+
+#psinp{
+  width: 18rem;
+}
+
+/* Form styles */
+.form {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #007bff;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.p {
+  text-align: center;
+}
+
+.p span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.toggle-password {
+  cursor: pointer;
+  color: #007bff;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.toggle-password:hover {
+  text-decoration: underline;
+}
+
+/* Animation styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
